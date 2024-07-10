@@ -1,0 +1,44 @@
+{
+  "beverages": [
+    {
+      "id": "1",
+      "name": "bad coffee",
+      "rating": 7
+    },
+    {
+      "name": "coffee",
+      "id": "3",
+      "rating": 6
+    },
+    {
+      "name": "decaff cofee",
+      "id": "2",
+      "rating": 8
+    },
+    {
+      "id": "5",
+      "name": "mocha-latte",
+      "rating": 6
+    },
+    {
+      "id": "6",
+      "name": "mocha-latte",
+      "rating": 6
+    },
+    {
+      "id": "7",
+      "name": "mocha",
+      "rating": 7
+    },
+    {
+      "id": "8",
+      "name": "mocha",
+      "rating": null
+    },
+    {
+      "id": "9",
+      "name": "mocha",
+      "rating": 6
+    }
+  ]
+}
