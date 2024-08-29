@@ -39,6 +39,31 @@
       "id": "9",
       "name": "mocha",
       "rating": 6
+    },
+    {
+      "id": "10",
+      "name": "Updated Beverage",
+      "rating": 8
+    },
+    {
+      "id": "11",
+      "name": "Updated Beverage",
+      "rating": 8
+    },
+    {
+      "id": "12",
+      "name": "Beverage",
+      "rating": 5
+    },
+    {
+      "id": "13",
+      "name": "Updated Beverage",
+      "rating": 8
+    },
+    {
+      "id": "14",
+      "name": "Updated Beverage",
+      "rating": 8
     }
   ]
-}
+}}

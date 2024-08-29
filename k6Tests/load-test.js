@@ -2,8 +2,17 @@ import http from 'k6/http';
 import { check, sleep } from 'k6';
 
 export let options = {
-    vus: 30, 
-    duration: '10s',
+    stages: [
+        { duration: "5s", target: 0 },
+        { duration: "5s", target: 60 },
+        { duration: "5s", target: 70 },
+        { duration: "5s", target: 70 },
+        { duration: "5s", target: 100 },
+        { duration: "5s", target: 70 },
+        { duration: "5s", target: 70 },
+        { duration: "5s", target: 60 },
+        { duration: "5s", target: 0 },
+      ]
 };
 
 function performanceTestGetAllBeverages() {
