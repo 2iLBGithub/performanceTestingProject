@@ -73,7 +73,7 @@ function performanceTestDeleteBeverage(id) {
     });
 }
 
-let sleepTime = 0.5
+let sleepTime = 1
 
 export default function () {
     performanceTestGetAllBeverages();
